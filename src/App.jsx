@@ -1,15 +1,26 @@
-import Header from "./Components/Header.jsx";
-import Footer from "./Components/Footer.jsx";
-import Home from "./Pages/Home.jsx";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Home />
-      <Footer />
-    </>
-  );
-}
+import { RootPage } from './pages/root';
+import { ROUTES } from './utils/constants/router';
 
-export default App;
+const router = createBrowserRouter([
+  {
+    path: ROUTES.ROOT,
+    element: <RootPage />
+  }
+]);
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false
+    }
+  }
+});
+
+export const App = () => (
+  <QueryClientProvider client={queryClient}>
+    <RouterProvider router={router} />
+  </QueryClientProvider>
+);

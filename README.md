@@ -1,8 +1,20 @@
-# React + Vite
+# **SHIFT WINTER ИНТЕНСИВ ⭐️**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+sample на react/query для frontend'а.
 
-Currently, two official plugins are available:
+## Техническое задание
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **📦 Доставка товаров** - [ссылка](https://omniscient-honeydew-f15.notion.site/7c46a3a33c8946bc8353d852afbf39a1)
+- **🍿 Кинотеатр** - [ссылка](https://omniscient-honeydew-f15.notion.site/90eef6b45a7843158d5731a1d4fd2440)
+- **🍕 Пицца** - [ссылка](https://omniscient-honeydew-f15.notion.site/efe624e43fa94004b37acc093565fa18)
+  
+## Как работать ?
+
+На данной [странице](https://www.notion.so/2602fbc1bf3045b08a14bc0ae06304a9) вы можете найти ответы на вопросы по интенсиву
+
+## Samples для быстрого старта
+
+- **react/redux** - https://github.com/shift-intensiv/frontend-sample/tree/react/redux
+- **vue** - https://github.com/shift-intensiv/frontend-sample/tree/vue
+- **html/css/js** - https://github.com/shift-intensiv/frontend-sample/tree/html/css/js
+
